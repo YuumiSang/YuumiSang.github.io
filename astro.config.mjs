@@ -22,7 +22,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 // https://astro.build/config
 export default defineConfig({
   site: "https://yuumisang.github.io",
-  base: "/yuumisang",
+  base: "",
   trailingSlash: "always",
   integrations: [
     tailwind(
